@@ -4,26 +4,61 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="src\assets\css\app.css">
-	<link rel="stylesheet" href="node_modules\materialize-css\dist\css\materialize.min.css">
+	<link rel="stylesheet" href="static\materialize-css\dist\css\materialize.min.css">
+	<link rel="stylesheet" href="static\assets\css\app.css">
 	<title>Search for music</title>
 </head>
 <body>
+	<div class="navbar-fixed">
+	  <nav>
+		<div class="nav-wrapper container">
+		  <a href="#!" class="brand-logo">Logo</a>
+		  <ul class="right hide-on-med-and-down">
+			<li><a href="sass.html">Sass</a></li>
+			<li><a href="badges.html">Components</a></li>
+		  </ul>
+		</div>
+	  </nav>
+	</div>
+
 	<section class="container">
+		<hr>
 		<section class="row">
-			<section class="col s12 m12 l9 xl9" id="contenedorCanciones"></section>
-			<section class="col s12 m12 l3 xl3">
-				<section class="row"></section>
+			<section class="col s12 m12 l7 xl7 offset-s1 offset-m1 offset-l1 offset-xl1" id="contenedorCanciones"></section>
+			<section class="col s12 m12 l3 xl3" id="rightSide">
 				<secion class="row">
-					<section class="col s6 m6 l6 xl6"></section>
-					<section class="col s6 m6 l6 xl6"></section>
+					<h4 class="titleWidth"><a href="">Other Charts</a></h4>
+					<section class="col s6 m6 l6 xl6">
+						<section class="row rightCol">
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Global Top 100</p></a> <p class="subtextWidth">The most Shamazed son..</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Hip-Hop</p></a> <p class="subtextWidth">The hottest rap right now.</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Dance</p></a> <p class="subtextWidth">The freshest EDM hits.</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Latin</p></a> <p class="subtextWidth">The best new Latin grooves.</p>
+						</section>
+					</section>
+					<section class="col s6 m6 l6 xl6">
+						<section class="row rightCol">
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Future Hits</p></a> <p class="subtextWidth">New songs you'll love.</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Pop</p></a> <p class="subtextWidth">Featuring the biggest stars on...</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Country</p></a> <p class="subtextWidth">The top 10 new anthems.</p>
+							<a href=""><img src="https://dummyimage.com/300/09f/fff.png" alt="">
+							<p class="textWidth">Hall Of Fame</p></a> <p class="subtextWidth">The most Shazamed song...</p>
+						</section>
+					</section>
 				</secion>
 			</section>
 		</section>
 	</section>
 
-	<script src="node_modules\jquery\dist\jquery.min.js" charset="utf-8"></script>
-	<script src="node_modules\materialize-css\dist\js\materialize.min.js" charset="utf-8"></script>
-	<script src="src\assets\js\app.js" charset="utf-8"></script>
+	<script src="static\jquery\dist\jquery.min.js" charset="utf-8"></script>
+	<script src="static\materialize-css\dist\js\materialize.min.js" charset="utf-8"></script>
+	<script src="static\assets\js\app.js" charset="utf-8"></script>
 </body>
 </html>
