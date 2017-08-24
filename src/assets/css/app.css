@@ -1,0 +1,33 @@
+nav{
+	background-color: #673ab7;
+}
+
+img{
+	width: 100%;
+}
+.titleWidth{
+	font-weight: bold;
+	padding-left: 2%;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	padding-bottom: 3%;
+}
+#rightSide{
+	background-color: #F2F2F2;
+	/*background-attachment: fixed;*/
+}
+.rightCol{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.textWidth{
+	font-weight: bold;
+	font-size: .8rem;
+	margin: 0;
+}
+.subtextWidth{
+	padding: 0;
+	margin: 0;
+	font-size: .7rem;
+	color: #848484;
+}
