@@ -2,26 +2,17 @@ nav{
 	background-color: #673ab7;
 	height: 90px;
 }
-.titlePage{
-	margin-left: 17%;
-	line-height: 2%;
-	margin-top: 2.3%;
-}
-.textTitlePage{
-	margin: .7%;
-	padding: 0;
-}
 .containerInfo{
 	margin-top: 12%;
 }
 .containerSongs{
+	height: inherit;
 	overflow-y: scroll;
 	height: 800px;
 }
 .imgLogo{
 	width: 15%;
-	margin-top: 2%;
-	margin-bottom: 3.5%;
+	margin: 3.5%;
 }
 
 .imgSideRight{
